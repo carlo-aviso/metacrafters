@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+
+contract AritmethicOperation {
+    function addition(uint firstNumber, uint secondNumber) external pure returns(uint){
+        return firstNumber + secondNumber;
+    }
+      function subtraction(uint firstNumber, uint secondNumber) external pure returns(uint){
+        return firstNumber - secondNumber;
+    }
+      function multiplication(uint firstNumber, uint secondNumber) external pure returns(uint){
+        return firstNumber * secondNumber;
+    }
+       function division(uint firstNumber, uint secondNumber) external pure returns(uint){
+        return firstNumber / secondNumber;
+    }
+}
